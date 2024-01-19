@@ -41,7 +41,7 @@ const Footer = () => {
 
         <h1 className="credit">
           {" "}
-          created by <span> mr. web designer </span> | all rights reserved!{" "}
+          Copyright<span> @2023 </span>| all rights reserved!{" "}
         </h1>
       </section>
     </div>
