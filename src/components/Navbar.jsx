@@ -18,11 +18,11 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="menu-bar" className="fas fa-bars"></div>
 
-        <a href="#" class="logo"><span>T</span>ravel</a>
+        <a href="#" className="logo"><span>T</span>ravel</a>
 
-        <nav class="navbar">
+        <nav className="navbar">
           <a href="#home">Home</a>
           <a href="#book">Book</a>
           <a href="#packages">Packages</a>
@@ -32,8 +32,8 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </nav>
 
-        <div class="icons">
-          <i class="fas fa-search" id="search-btn"></i>
+        <div className="icons">
+          <i className="fas fa-search" id="search-btn"></i>
 
 
           <SignedOut>
@@ -48,10 +48,10 @@ const Navbar = () => {
 
         </div>
 
-        <form action="" class="search-bar-container">
+        <div className="search-bar-container">
           <input type="search" id="search-bar" placeholder="search here..." />
-          <label for="search-bar" class="fas fa-search"></label>
-        </form>
+          <label htmlFor="search-bar" className="fas fa-search"></label>
+        </div>
 
       </header>
     </div>

@@ -337,6 +337,15 @@ header .search-bar-container label:hover {
   text-transform: none;
 }
 
+.book .row form .inputBox select {
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+}
+
 .book .row form .inputBox h3 {
   font-size: 2rem;
   padding: 1rem 0;

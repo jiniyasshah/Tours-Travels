@@ -8,7 +8,7 @@ const Brand = () => {
   return (
     <div>
       <section className="brand-container">
-        <div class="swiper-container brand-slider">
+        <div className="swiper-container brand-slider">
           <Swiper
             spaceBetween={20}
 
@@ -30,13 +30,13 @@ const Brand = () => {
             }
             }
           >
-            <div class="swiper-wrapper">
-              <SwiperSlide><div class="swiper-slide"><img src="images/1.jpg" alt="" /></div></SwiperSlide>
-              <SwiperSlide><div class="swiper-slide"><img src="images/2.jpg" alt="" /></div></SwiperSlide>
-              <SwiperSlide><div class="swiper-slide"><img src="images/3.jpg" alt="" /></div></SwiperSlide>
-              <SwiperSlide><div class="swiper-slide"><img src="images/4.jpg" alt="" /></div></SwiperSlide>
-              <SwiperSlide><div class="swiper-slide"><img src="images/5.jpg" alt="" /></div></SwiperSlide>
-              <SwiperSlide><div class="swiper-slide"><img src="images/6.jpg" alt="" /></div></SwiperSlide>
+            <div className="swiper-wrapper">
+              <SwiperSlide><div className="swiper-slide"><img src="images/1.jpg" alt="" /></div></SwiperSlide>
+              <SwiperSlide><div className="swiper-slide"><img src="images/2.jpg" alt="" /></div></SwiperSlide>
+              <SwiperSlide><div className="swiper-slide"><img src="images/3.jpg" alt="" /></div></SwiperSlide>
+              <SwiperSlide><div className="swiper-slide"><img src="images/4.jpg" alt="" /></div></SwiperSlide>
+              <SwiperSlide><div className="swiper-slide"><img src="images/5.jpg" alt="" /></div></SwiperSlide>
+              <SwiperSlide><div className="swiper-slide"><img src="images/6.jpg" alt="" /></div></SwiperSlide>
             </div>
           </Swiper>
         </div>
