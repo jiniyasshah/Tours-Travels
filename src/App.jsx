@@ -23,7 +23,6 @@ const App = () => {
       <Review />
       <Contact />
       <Brand />
-      <Login /> {/* Render the Login component */}
       <Footer />
 
     </div>
