@@ -1,7 +1,6 @@
 // src/App.js
 import React from "react";
 import Navbar from "./components/Navbar";
-import Login from "./components/login"; // Import the Login component
 import Home from "./components/Home";
 import Book from "./components/Book";
 import Package from "./components/Package";
@@ -24,7 +23,6 @@ const App = () => {
       <Review />
       <Contact />
       <Brand />
-      <Login /> {/* Render the Login component */}
       <Footer />
 
     </div>

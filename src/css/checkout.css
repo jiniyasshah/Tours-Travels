@@ -94,3 +94,17 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+.description {
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.description h2 {
+  font-size: 20px;
+}
+
+.description p {
+  font-size: 13px;
+  max-width: 800px;
+}

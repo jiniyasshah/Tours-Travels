@@ -67,35 +67,56 @@ const Checkout = () => {
         }
     ]
 
+    const description = [
+        {
+            "Kathmandu": "Kathmandu, Nepal's capital, is set in a valley surrounded by the Himalayan mountains. At the heart of the old city’s mazelike alleys is Durbar Square, which becomes frenetic during Indra Jatra, a religious festival featuring masked dances.",
+            "Pokhara": "Pokhara is a city on Phewa Lake, in central Nepal. It’s known as a gateway to the Annapurna Circuit, a popular trail in the Himalayas. Tal Barahi Temple, a 2-story pagoda, sits on an island in the lake.",
+            "Illam": "Ilam is one of four urban municipalities of Ilam District, which lies in the Mahabharata hilly range of Koshi Province, eastern Nepal. Ilam also acts as the headquarters of Ilam District.",
+            "Mugu": "Mugu is a village development committee in the Himalayas of Mugu District in the Karnali Zone of north-western Nepal. After Dolphu it is the second largest VDC in Mugu District which takes its name from it.",
+
+            "Solukhumbu": "Solukhumbu District is one of 14 districts of Koshi Province of eastern Nepal. As the name suggests, it consists of the subregions Solu and Khumbu."
+        }
+    ]
+
 
 
 
     return (
-        <div className="container">
-            <div className="image">
-                <div className="image-container">
-                    <img src={data[0][jsonData]} alt="images" height={500} />
-                </div>
-            </div>
-            <div className="checkout">
-
-                <div className="checkout-container">
-
-                    <h2 className='checkoutTitle'>Book Now!</h2>
-                    <div className="form-container">
-                        <label>Name:</label>
-                        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-
-                        <label>Email:</label>
-                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-
-                        <label>Address:</label>
-                        <textarea value={address} onChange={(e) => setAddress(e.target.value)} />
-
-                        <button onClick={handleCheckout}>{button}</button>
+        <div>
+            <div className="container">
+                <div className="image">
+                    <div className="image-container">
+                        <img src={data[0][jsonData]} alt="images" height={500} />
+                    </div>
+                    <div className="description">
+                        <h2>{jsonData}</h2>
+                        <p>{description[0][jsonData]}</p>
                     </div>
                 </div>
+                <div className="checkout">
+
+                    <div className="checkout-container">
+
+                        <h2 className='checkoutTitle'>Book Now!</h2>
+                        <div className="form-container">
+                            <label>Name:</label>
+                            <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+
+                            <label>Email:</label>
+                            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+
+                            <label>Address:</label>
+                            <textarea value={address} onChange={(e) => setAddress(e.target.value)} />
+
+                            <button onClick={handleCheckout}>{button}</button>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
+
         </div>
     );
 };
